@@ -26,3 +26,37 @@ a.foo {
   text-decoration-color: white;
   color: white;
 }
+/* 1. Изменяем шрифт и цвет фона всей страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* 2. Стилизуем заголовок */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* 3. Оформляем таблицу */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+}
+
+/* 4. Стилизуем ячейки таблицы */
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+/* 5. Добавляем эффект при наведении на строку таблицы */
+tr:hover {
+    background-color: #e1f5fe;
+}
